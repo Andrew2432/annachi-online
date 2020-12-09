@@ -1,0 +1,15 @@
+{
+  "cookie": {
+    "name": "_aocookie_",
+    "secret": "f413ce01-d94c-4fce-876d-dab5ce956b5a",
+    "duration": 604800000,
+    "secure": true
+  },
+  "cors": {
+    "origin": "https://annachi-kadai.netlify.app/",
+    "credentials": true
+  },
+  "mailer": {
+    "from": "Andrew Joel <andrewjoel046@gmail.com>"
+  }
+}

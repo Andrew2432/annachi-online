@@ -1,0 +1,13 @@
+{
+  "name": "annachi-online",
+  "version": "1.0.0",
+  "description": "Top level wrapper of Annachi Online E-commerce website",
+  "main": "null",
+  "repository": "https://github.com/Andrew2432/annachi-online.git",
+  "author": "Andrew2432 <drew.devops@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "commit": "cz"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "cookie": {
+    "name": "_ao_",
+    "secret": "7836ea5a-6328-4f64-a3cd-ff644a2efca0",
+    "duration": 60000,
+    "secure": false
+  },
+  "cors": {
+    "origin": "http://localhost:3000",
+    "credentials": "false"
+  },
+  "mailer": {
+    "user": "wdlbhxo7fiy4ahd3@ethereal.email",
+    "pass": "37YB3XMrvbtfncZgMq",
+    "from": "Andrew Joel <andrewjoel046@gmail.com>"
+  },
+  "forgotPassword": {
+    "prefix": "forgot-password:",
+    "expiry": 300000
+  },
+  "regex": {
+    "usernameRegex": "([a-zA-Z0-9]{2,20})",
+    "passwordRegex": "([a-zA-Z0-9@*#_]{8,20})"
+  },
+  "files": {
+    "graphqlUploadSizeLimit": 1000000000,
+    "graphqlUploadFilesLimit": 10,
+    "fileSizeLimit": 2000000
+  }
+}
