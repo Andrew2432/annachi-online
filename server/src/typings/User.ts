@@ -33,13 +33,13 @@ export class UserError {
 
 @ObjectType()
 class UserResetPassword {
-  @Field(() => Boolean)
+  @Field()
   isSuccessful!: boolean;
 
-  @Field(() => Boolean)
+  @Field()
   isResetEmailSent!: boolean;
 
-  @Field(() => Boolean)
+  @Field()
   isUserResetPassword!: boolean;
 }
 

@@ -39,6 +39,11 @@ export default class File extends BaseEntity implements Partial<FileUpload> {
   @Column({ nullable: false })
   uploadedByUserId: string;
 
+  @Field()
+  @Column({ nullable: false })
+  uploadedFileId: string;
+
+  @Field(() => User)
   @ManyToOne(() => User, (user) => user.images)
   uploadedBy!: User;
 
@@ -51,6 +56,7 @@ export default class File extends BaseEntity implements Partial<FileUpload> {
   updatedAt!: Date;
 
   constructor(
+    uploadedFileId: string,
     uploadedFileUrl: string,
     filename: string,
     mimetype: string,
@@ -59,6 +65,7 @@ export default class File extends BaseEntity implements Partial<FileUpload> {
   ) {
     super();
     this.id = uuidv4();
+    this.uploadedFileId = uploadedFileId;
     this.uploadedFileUrl = uploadedFileUrl;
     this.filename = filename;
     this.mimetype = mimetype;
