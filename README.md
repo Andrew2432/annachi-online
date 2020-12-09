@@ -8,13 +8,12 @@
 -->
 
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![Built With TypeScript][typescript-badge-url]]
+[![Built With TypeScript]][typescript-badge-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">Annachi Online</h3>
+  <h2 align="center">Annachi Online</h2>
 
   <p align="center">
   Your Annachi Kadai is now online!
@@ -123,7 +122,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+[Andrew Joel](https://andrew-joel.com)
 
 Project Link: [https://github.com/Andrew2432/annachi-online](https://github.com/Andrew2432/annachi-online)
 
@@ -137,8 +136,7 @@ Project Link: [https://github.com/Andrew2432/annachi-online](https://github.com/
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/Andrew2432/annachi-online/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/andrewjoel
 [typescript-badge-url]: https://flat.badgen.net/badge/icon/Typed?icon=typescript&label&labelColor=blue&color=555555
-[product-screenshot]: images/screenshot.png
